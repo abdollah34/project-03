@@ -1,0 +1,46 @@
+/* This file contains styles for responsive design, ensuring the website looks good on various screen sizes. */
+
+@media (max-width: 1200px) {
+    /* Styles for tablets and smaller devices */
+    body {
+        font-size: 16px;
+    }
+
+    .header, .footer {
+        padding: 10px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+    body {
+        font-size: 14px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .packages {
+        display: block;
+    }
+
+    .package-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for very small devices */
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
